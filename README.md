@@ -1,7 +1,8 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+What happens: The camera stays still and no longer follows the cat when it moves.
+Why: Because in Unity, a child object automatically follows its parent's movement. Since the camera is no longer a child of the cat, it becomes independent and won't inherit the cat's position changes.
 
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
