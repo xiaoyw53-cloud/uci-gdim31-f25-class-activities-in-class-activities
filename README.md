@@ -17,6 +17,11 @@
 ##### q3:The method takes the timestamp of when the key was pressed (float) as an input parameter to calculate accuracy. It returns a bool (true if the beat was hit accurately, false otherwise).
 #### A2 
 ##### A Class is like the design blueprint for an Air Conditioner, defining its data and capabilities. A Component is the physical AC unit actually installed into a specific room (GameObject) to give it temperature-control functionality. Member Variables are its current settings (e.g., targetTemperature or isPowerOn), while Methods are the actions it can perform, such as TurnOn() or SetTemperature()
+### W4
+#### 1:I added Rigidbodies to the Cat and SoccerBall because I wanted them to have physical collisions. I checked Is Trigger on the Goal's Box Collider because I wanted the ball to pass through the goal and still detect when it entered the goal area.
+#### 2:My game did not work perfectly at first. The cat could not kick the ball correctly. I checked the Collider and Rigidbody settings and adjusted them. After that, the cat could kick the ball and the game worked better.
+### W5
+#### 
 
 
 ## Open-Source Assets
