@@ -20,7 +20,7 @@
 ### W4
 #### 1:I added Rigidbodies to the Cat and SoccerBall because I wanted them to have physical collisions. I checked Is Trigger on the Goal's Box Collider because I wanted the ball to pass through the goal and still detect when it entered the goal area.
 #### 2:My game did not work perfectly at first. The cat could not kick the ball correctly. I checked the Collider and Rigidbody settings and adjusted them. After that, the cat could kick the ball and the game worked better.
-### W5
+### W6
 #### 
 
 
