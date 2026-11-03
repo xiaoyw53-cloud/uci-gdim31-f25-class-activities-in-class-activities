@@ -21,8 +21,12 @@
 #### 1:I added Rigidbodies to the Cat and SoccerBall because I wanted them to have physical collisions. I checked Is Trigger on the Goal's Box Collider because I wanted the ball to pass through the goal and still detect when it entered the goal area.
 #### 2:My game did not work perfectly at first. The cat could not kick the ball correctly. I checked the Collider and Rigidbody settings and adjusted them. After that, the cat could kick the ball and the game worked better.
 ### W6
-#### 
-
+#### 1
+##### I will use a public Transform variable called target. This allows me to assign the target object in the Inspector. I will also use a private NavMeshAgent variable called agent to store a reference to the deer’s NavMeshAgent component.
+#### 2
+##### I will use Unity’s Start() method to set the destination when the game begins. For this part, I do not need Update() or a collision method because the destination only needs to be set once.
+#### 3
+##### Inside Start(), I will use GetComponent<NavMeshAgent>() to get the NavMeshAgent attached to the Deer and store it in agent. Then, I will call agent.SetDestination(target.position) to tell the agent where to go. The agent will calculate a path and move the deer along the NavMesh when a valid path is available. (Unity documentation)
 
 ## Open-Source Assets
 ### W1
