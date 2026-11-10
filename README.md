@@ -30,6 +30,9 @@
 ### W7
 #### https://docs.google.com/document/d/1buM8ejVQi1dAmoziZCxujrIESSoHZiSx8MhIJQI3IuQ/edit?usp=sharing
 #### I was responsible for all five sections of the Class Resource Guide: Unity Engine, Unity Coding, General C# Coding, Math, and Other Tools.
+##### Member variables: cat stores the Cat’s Transform, speed controls how fast the bat moves and can be adjusted in the Inspector, and isChasing tracks whether the bat is chasing.
+##### Unity method: Update() runs every frame. If isChasing is true, it moves the bat toward the Cat using Vector3.MoveTowards() and Time.deltaTime.
+##### Custom methods: StartChasing() sets isChasing to true, and StopChasing() sets it to false. Both are public so BatManager can call them.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
