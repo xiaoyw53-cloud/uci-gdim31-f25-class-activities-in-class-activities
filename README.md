@@ -27,7 +27,9 @@
 ##### I will use Unity’s Start() method to set the destination when the game begins. For this part, I do not need Update() or a collision method because the destination only needs to be set once.
 #### 3
 ##### Inside Start(), I will use GetComponent<NavMeshAgent>() to get the NavMeshAgent attached to the Deer and store it in agent. Then, I will call agent.SetDestination(target.position) to tell the agent where to go. The agent will calculate a path and move the deer along the NavMesh when a valid path is available. (Unity documentation)
-
+### W7
+#### https://docs.google.com/document/d/1buM8ejVQi1dAmoziZCxujrIESSoHZiSx8MhIJQI3IuQ/edit?usp=sharing
+#### I was responsible for all five sections of the Class Resource Guide: Unity Engine, Unity Coding, General C# Coding, Math, and Other Tools.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
