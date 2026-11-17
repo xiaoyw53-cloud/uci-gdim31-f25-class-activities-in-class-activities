@@ -27,7 +27,8 @@
 ##### I will use Unity’s Start() method to set the destination when the game begins. For this part, I do not need Update() or a collision method because the destination only needs to be set once.
 #### 3
 ##### Inside Start(), I will use GetComponent<NavMeshAgent>() to get the NavMeshAgent attached to the Deer and store it in agent. Then, I will call agent.SetDestination(target.position) to tell the agent where to go. The agent will calculate a path and move the deer along the NavMesh when a valid path is available. (Unity documentation)
-### W7
+### W8
+##### Step 2 used Vector3.forward, which always points along the world’s positive Z axis. This meant the Muskrat moved along the same axis even after turning. I replaced it with transform.forward so that forward and backward movement follow the Muskrat’s current facing direction.
 #### https://docs.google.com/document/d/1buM8ejVQi1dAmoziZCxujrIESSoHZiSx8MhIJQI3IuQ/edit?usp=sharing
 #### I was responsible for all five sections of the Class Resource Guide: Unity Engine, Unity Coding, General C# Coding, Math, and Other Tools.
 ##### Member variables: cat stores the Cat’s Transform, speed controls how fast the bat moves and can be adjusted in the Inspector, and isChasing tracks whether the bat is chasing.
